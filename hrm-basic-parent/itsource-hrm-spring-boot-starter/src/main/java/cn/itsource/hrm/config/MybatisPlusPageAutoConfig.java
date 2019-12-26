@@ -5,13 +5,13 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @Description TODO
- * @Author solargen
- * @Date 2019/12/24 15:31
+ * @Description TODo
+ * @Author hjz
+ * @Date 2019/12/2614:08
  * @Version v1.0
- **/
+ */
 @Configuration
-public class MybatisPlusConfig {
+public class MybatisPlusPageAutoConfig {
 
     @Bean
     public PaginationInterceptor paginationInterceptor() {
@@ -22,5 +22,4 @@ public class MybatisPlusConfig {
         // paginationInterceptor.setLimit(500);
         return paginationInterceptor;
     }
-
 }

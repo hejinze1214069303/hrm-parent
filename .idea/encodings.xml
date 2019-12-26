@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/hrm-basic-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-basic-parent/hrm-basic-generator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-basic-parent/hrm-basic-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-supports-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-supports-parent/hrm-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-supports-parent/hrm-eureka-server" charset="UTF-8" />
