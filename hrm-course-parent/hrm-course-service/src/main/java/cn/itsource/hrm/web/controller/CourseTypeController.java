@@ -18,69 +18,80 @@ public class CourseTypeController {
     public ICourseTypeService courseTypeService;
 
     /**
-    * 保存和修改公用的
-    * @param courseType  传递的实体
-    * @return Ajaxresult转换结果
-    */
-    @RequestMapping(value="/save",method= RequestMethod.POST)
-    public AjaxResult save(@RequestBody CourseType courseType){
+     * 保存和修改公用的
+     *
+     * @param courseType 传递的实体
+     * @return Ajaxresult转换结果
+     */
+    @RequestMapping(value = "/save", method = RequestMethod.POST)
+    public AjaxResult save(@RequestBody CourseType courseType) {
         try {
-            if(courseType.getId()!=null){
+            if (courseType.getId() != null) {
                 courseTypeService.updateById(courseType);
-            }else{
+            } else {
                 courseTypeService.save(courseType);
             }
             return AjaxResult.me();
         } catch (Exception e) {
             e.printStackTrace();
-            return AjaxResult.me().setSuccess(false).setMessage("保存对象失败！"+e.getMessage());
+            return AjaxResult.me().setSuccess(false).setMessage("保存对象失败！" + e.getMessage());
         }
     }
 
     /**
-    * 删除对象信息
-    * @param id
-    * @return
-    */
-    @RequestMapping(value="/{id}",method=RequestMethod.DELETE)
-    public AjaxResult delete(@PathVariable("id") Long id){
+     * 删除对象信息
+     *
+     * @param id
+     * @return
+     */
+    @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
+    public AjaxResult delete(@PathVariable("id") Long id) {
         try {
             courseTypeService.removeById(id);
             return AjaxResult.me();
         } catch (Exception e) {
-        e.printStackTrace();
-            return AjaxResult.me().setMessage("删除对象失败！"+e.getMessage());
+            e.printStackTrace();
+            return AjaxResult.me().setMessage("删除对象失败！" + e.getMessage());
         }
     }
 
-    @RequestMapping(value = "/{id}",method = RequestMethod.GET)
-    public CourseType get(@PathVariable("id")Long id)
-    {
+    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    public CourseType get(@PathVariable("id") Long id) {
         return courseTypeService.getById(id);
     }
 
 
     /**
-    * 查看所有信息
-    * @return
-    */
-    @RequestMapping(value = "/list",method = RequestMethod.GET)
-    public List<CourseType> list(){
+     * 查看所有信息
+     *
+     * @return
+     */
+    @RequestMapping(value = "/list", method = RequestMethod.GET)
+    public List<CourseType> list() {
 
         return courseTypeService.list(null);
     }
 
 
     /**
-    * 分页查询数据
-    *
-    * @param query 查询对象
-    * @return PageList 分页对象
-    */
-    @RequestMapping(value = "/page",method = RequestMethod.POST)
-    public PageList<CourseType> page(@RequestBody CourseTypeQuery query)
-    {
+     * 分页查询数据
+     *
+     * @param query 查询对象
+     * @return PageList 分页对象
+     */
+    @RequestMapping(value = "/page", method = RequestMethod.POST)
+    public PageList<CourseType> page(@RequestBody CourseTypeQuery query) {
         Page<CourseType> page = courseTypeService.page(new Page<CourseType>(query.getPage(), query.getRows()));
-        return new PageList<>(page.getTotal(),page.getRecords());
+        return new PageList<>(page.getTotal(), page.getRecords());
+    }
+
+    /**
+     * 加载课程类型树
+     *
+     * @return
+     */
+    @GetMapping("/treeData")
+    public List<CourseType> treeData() {
+        return courseTypeService.loadTreeData();
     }
 }
