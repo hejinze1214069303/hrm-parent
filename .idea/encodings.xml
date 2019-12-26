@@ -6,6 +6,9 @@
     <file url="file://$PROJECT_DIR$/hrm-basic-parent/hrm-basic-generator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-basic-parent/hrm-basic-util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-course-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-course-parent/hrm-course-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-course-parent/hrm-course-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-supports-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-supports-parent/hrm-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-supports-parent/hrm-eureka-server" charset="UTF-8" />
@@ -13,5 +16,6 @@
     <file url="file://$PROJECT_DIR$/hrm-system-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-system-parent/hrm-system-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-system-parent/hrm-system-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrmcourseparent" charset="UTF-8" />
   </component>
 </project>
