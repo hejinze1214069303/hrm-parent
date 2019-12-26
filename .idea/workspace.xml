@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584088c5-8b07-421f-baed-6e23300efe8a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/itsource-hrm-spring-boot-starter.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/java/cn/itsource/hrm/config/MybatisPlusPageAutoConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/java/cn/itsource/hrm/config/SwaggerProperties.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/resources/META-INF/spring.factories" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/resources/config/application.yml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/hrm-basic-parent/pom.xml" afterPath="$PROJECT_DIR$/hrm-basic-parent/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/hrm-system-service.iml" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/hrm-system-service.iml" />
-      <change beforePath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/pom.xml" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/SystemServiceApplication.java" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/SystemServiceApplication.java" />
-      <change beforePath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/config/MybatisPlusConfig.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/config/Swagger2.java" afterPath="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/java/cn/itsource/hrm/config/Swagger2AutoConfiguration.java" />
-      <change beforePath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/java/cn/itsource/hrm/config/SwaggerProperties.java" afterPath="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/java/cn/itsource/hrm/config/SwaggerProperties.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,14 +30,24 @@
       <file leaf-file-name="Swagger2AutoConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/java/cn/itsource/hrm/config/Swagger2AutoConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="207">
+              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SwaggerProperties.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/java/cn/itsource/hrm/config/SwaggerProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
@@ -148,11 +140,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/resources/config/application.yml" />
         <option value="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/java/cn/itsource/hrm/config/Swagger2.java" />
-        <option value="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/java/cn/itsource/hrm/config/SwaggerProperties.java" />
         <option value="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/java/cn/itsource/hrm/config/MybatisPlusPageAutoConfig.java" />
         <option value="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/java/cn/itsource/hrm/config/Swagger2AutoConfiguration.java" />
         <option value="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/SystemServiceApplication.java" />
+        <option value="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/java/cn/itsource/hrm/config/SwaggerProperties.java" />
       </list>
     </option>
   </component>
@@ -435,7 +427,7 @@
       <workItem from="1577271706627" duration="788000" />
       <workItem from="1577274658444" duration="984000" />
       <workItem from="1577323227453" duration="2639000" />
-      <workItem from="1577327670710" duration="5546000" />
+      <workItem from="1577327670710" duration="6253000" />
     </task>
     <task id="LOCAL-00001" summary="忽略.idea">
       <created>1577327894419</created>
@@ -444,11 +436,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577327894420</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="抽取服务">
+      <created>1577341790837</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577341790837</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20049000" />
+    <option name="totallyTimeSpent" value="20756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -473,7 +472,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34051725" sideWeight="0.49570817" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.49448818" order="0" side_tool="false" content_ui="combo" />
@@ -498,7 +497,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="忽略.idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="忽略.idea" />
+    <MESSAGE value="抽取服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="抽取服务" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -830,14 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/java/cn/itsource/hrm/config/SwaggerProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2.jar!/springfox/documentation/swagger2/annotations/EnableSwagger2.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -858,14 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
           <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/java/cn/itsource/hrm/config/Swagger2AutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -892,6 +876,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/java/cn/itsource/hrm/config/Swagger2AutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/java/cn/itsource/hrm/config/SwaggerProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding />
         </state>
       </provider>

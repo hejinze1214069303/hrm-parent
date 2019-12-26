@@ -14,7 +14,7 @@ public class SwaggerProperties {
     private String basePackage = "cn.itsource.hrm.web.controller";
     private String title;
     private String description;
-    private String name = "solargen";
+    private String name = "hjz";
     private String url = "";
     private String email = "lishugen@itsource.cn";
     private String version = "1.0";
