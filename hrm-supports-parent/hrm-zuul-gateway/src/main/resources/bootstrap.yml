@@ -1,0 +1,33 @@
+#配置中心在哪里，拉取哪个配置文件
+spring:
+  application:
+    name: ZUUL-GATEWAY
+  cloud:
+    config:
+      name: application-zuul
+      discovery:
+        enabled: true
+        service-id: CONFIG-SERVER
+  profiles:
+    active: dev
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+     prefer-ip-address: true
+
+#zuul的hystrix超时配置
+hystrix:
+  command:
+    course-service:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+
+#配置zuul的ribbon的超时时间
+ribbon:
+  ReadTimeout: 5000
+  SocketTimeout: 5000

@@ -1,0 +1,12 @@
+#配置中心在哪里，拉取哪个配置文件
+spring:
+  application:
+    name: REDIS-GATEWAY
+  cloud:
+    config:
+      name: application-redis
+      discovery:
+        enabled: true
+        service-id: CONFIG-SERVER
+  profiles:
+    active: dev
