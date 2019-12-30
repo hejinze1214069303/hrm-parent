@@ -20,5 +20,6 @@ public class RedisClientFallback implements RedisClient {
     @Override
     public String get(String key) {
         return "获取失败!";
+        //throw new RuntimeException();
     }
 }

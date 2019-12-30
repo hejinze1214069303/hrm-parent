@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @Date 2019/12/300:21
  * @Version v1.0
  */
-@FeignClient(value = "REDIS-SERVICE",path = "/redis",fallback = RedisClientFallback.class)
+@FeignClient(value = "REDIS-GATEWAY",path = "/redis",fallback = RedisClientFallback.class)
 public interface RedisClient {
 
     /**
