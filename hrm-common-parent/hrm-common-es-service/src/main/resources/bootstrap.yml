@@ -1,0 +1,12 @@
+#配置中心在哪里，拉取哪个配置文件
+spring:
+  application:
+      name: ES-SERVICE
+  cloud:
+    config:
+      name: application-es
+      discovery:
+        enabled: true
+        service-id: CONFIG-SERVER #通过配置中心服务端的服务名获取集群的注册列表
+  profiles:
+    active: dev
